@@ -8,19 +8,19 @@ export default function Projects() {
       title: "NFT Marketplace",
       description:
         "Blockchain-based platform using Next.js and Solidity. Managed 500+ transactions with 99.9% uptime.",
-      link: "https://github.com/harman1390"
+      link: "https://github.com/harman1390/NFT-Marketplace"
     },
     {
       title: "E-Voting DApp",
       description:
         "Secure voting system built on Avalanche Blockchain. Achieved 99.8% transaction accuracy.",
-      link: "https://github.com/harman1390"
+      link: "https://github.com/harman1390/AvalancheProject"
     },
     {
       title: "Medchain Project",
       description:
         "Decentralized medical data platform. Reduced unauthorized access by 40% and improved secure sharing.",
-      link: "https://github.com/harman1390"
+      link: "https://github.com/harman1390/HyperLedgerFabricProject"
     }
   ];
 
