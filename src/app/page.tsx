@@ -6,13 +6,6 @@ import Image from "next/image";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 export default function Home() {
-  const [copySuccess, setCopySuccess] = useState('');
-
-  const handleCopyEmail = () => {
-    navigator.clipboard.writeText("harms1390@gmail.com")
-      .then(() => setCopySuccess("Email copied!"))
-      .catch(() => setCopySuccess("Failed to copy email."));
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-indigo-800 to-indigo-400 text-gray-100 font-sans">
