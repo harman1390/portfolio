@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
@@ -28,8 +28,9 @@ export default function Home() {
             Harmanjyot Singh Sandhu
           </h1>
           <p className="text-lg text-gray-300">
-            I'm a full-stack developer and blockchain enthusiast focused on building impactful decentralized apps and sleek frontend experiences. With a strong foundation in smart contract development and data analytics, I bring ideas to life through clean, scalable code.
+           I&apos;m a full-stack developer and blockchain enthusiast focused on building impactful decentralized apps and sleek frontend experiences. With a strong foundation in smart contract development and data analytics, I bring ideas to life through clean, scalable code.
           </p>
+
         </motion.div>
       </div>
 
