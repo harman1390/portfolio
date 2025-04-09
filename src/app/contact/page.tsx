@@ -11,7 +11,7 @@ export default function Contact() {
         transition={{ duration: 0.8 }}
         className="text-5xl font-bold mb-10 text-center text-purple-900 drop-shadow-lg"
       >
-        Let's Connect
+        Let&apos;s Connect
       </motion.h2>
 
       <motion.div
