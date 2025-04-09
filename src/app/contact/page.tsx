@@ -5,13 +5,14 @@ import { motion } from "framer-motion";
 export default function Contact() {
   return (
     <div className="bg-gradient-to-br from-purple-50 via-pink-50 to-yellow-50 min-h-screen p-10 text-gray-800">
+      {/* eslint-disable-next-line react/no-unescaped-entities */}
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         className="text-5xl font-bold mb-10 text-center text-purple-900 drop-shadow-lg"
       >
-        Let&apos;s Connect
+        Let's Connect
       </motion.h2>
 
       <motion.div
