@@ -6,14 +6,12 @@ import Image from "next/image";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 export default function Home() {
-  // State to handle copy success message
   const [copySuccess, setCopySuccess] = useState(false);
 
-  // Function to handle email copy
   const handleCopyEmail = () => {
     navigator.clipboard.writeText("harms1390@gmail.com").then(() => {
       setCopySuccess(true);
-      setTimeout(() => setCopySuccess(false), 2000); // Reset success after 2 seconds
+      setTimeout(() => setCopySuccess(false), 2000);
     });
   };
 
@@ -38,7 +36,7 @@ export default function Home() {
             Harmanjyot Singh Sandhu
           </h1>
           <p className="text-lg text-gray-300">
-            I'm a full-stack developer and blockchain enthusiast focused on building impactful decentralized apps and sleek frontend experiences. With a strong foundation in smart contract development and data analytics, I bring ideas to life through clean, scalable code.
+            I&apos;m a full-stack developer and blockchain enthusiast focused on building impactful decentralized apps and sleek frontend experiences. With a strong foundation in smart contract development and data analytics, I bring ideas to life through clean, scalable code.
           </p>
         </motion.div>
       </div>
