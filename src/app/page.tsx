@@ -65,7 +65,7 @@ export default function Home() {
           </h1>
 
           <p className="text-lg text-gray-700 max-w-xl mx-auto mb-4">
-            I'm a passionate full-stack developer and blockchain enthusiast with a background in data analysis and smart contract development. I love building clean, interactive user experiences powered by modern web technologies and decentralized systems.
+            I&apos;m a passionate full-stack developer and blockchain enthusiast with a background in data analysis and smart contract development. I love building clean, interactive user experiences powered by modern web technologies and decentralized systems.
           </p>
         </motion.div>
       </div>
