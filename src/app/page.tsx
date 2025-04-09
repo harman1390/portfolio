@@ -29,17 +29,17 @@ export default function Home() {
             className="absolute top-20 right-6 bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-lg border border-purple-200 grid gap-4 w-60"
           >
             <Link href="/projects">
-              <button className="w-full px-4 py-2 bg-purple-700 text-white rounded-lg hover:bg-purple-800 transition-all">
+              <button className="w-full px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-lg hover:scale-105 transition-all">
                 View My Projects
               </button>
             </Link>
             <Link href="/education">
-              <button className="w-full px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-all">
+            <button className="w-full px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-lg hover:scale-105 transition-all">
                 Education
               </button>
             </Link>
             <Link href="/contact">
-              <button className="w-full px-4 py-2 bg-pink-600 text-white rounded-lg hover:bg-pink-700 transition-all">
+            <button className="w-full px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-lg hover:scale-105 transition-all">
                 Contact
               </button>
             </Link>
